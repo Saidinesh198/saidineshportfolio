@@ -2733,6 +2733,7 @@ input, select, textarea {
 				}
 
 	}
+	
 
 /* Mobile */
 
@@ -3137,3 +3138,18 @@ input, select, textarea {
 					}
 
 	}
+	.profile-container {
+		position: absolute;
+		top: 150px;  /* Adjust as needed */
+		right: 50px;  /* Adjust as needed */
+	}
+	
+	.profile-photo {
+		width: 250px; /* Adjust size */
+		height: 250px;
+		border-radius: 75%; /* Circular shape */
+		object-fit: cover; /* Ensures the image fits well */
+		border: 3px solid white; /* Optional: adds a border */
+		box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Optional: adds shadow */
+	}
+	
